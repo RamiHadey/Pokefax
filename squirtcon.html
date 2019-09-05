@@ -3,34 +3,66 @@
     <head>
         <meta charset="UTF-8">
         <title>Squirtle</title>
+        <link href="layout-gengarcon.css" rel="style sheet">
     </head>
 
     <body>
         <header>
-            <a href="pfhome.html"><img src="pflogo.png" alt="PokeFax Logo" height="250px" width="300px"></a>
+            <nav>
+                <a href="pfhome.html"><img class="logo-img" src="pflogo.png" alt="PokeFax Logo" height="250px" width="300px"></a>
+                <div class="dropdown">
+                        <button class="dropbtn">Element types</button>
+                        <div class="dropdown-content">
+                            <a href="Electric.html">Electric Type</a>
+                            <a href="Water.html">Water Type</a>
+                            <a href="Fire.html">Fire Type</a>
+                            <a href="Psychic.html">Psychic Type</a>
+                            <a href="Normal.html">Normal Type</a>
+                            <a href="GhostPoison.html">Ghost/Poison Type</a>
+                        </div>
+                </div>
+            </nav>
         </header>
-        <nav>
+        <nav class="left-side-article">
             <h1>Pokemon Stats:</h1>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><h3>Squirtle</h3></li>
+                <li>HP: 44</li>
+                <li>Attack: 48</li>
+                <li>Defense: 65</li>
+                <li>Sp. Atk: 50</li>
+                <li>Sp. Def: 64</li>
+                <li>Speed: 43</li>
+                <li>Total: 314</li>
+                <br>
+                <li><h3>Wartortle</h3></li>
+                <li>HP: 59</li>
+                <li>Attack: 63</li>
+                <li>Defense: 80</li>
+                <li>Sp. Atk: 65</li>
+                <li>Sp. Def: 80</li>
+                <li>Speed: 58</li>
+                <li>Total: 405</li>
+                <br>
+                <li><h3>Blastoise</h3></li>
+                <li>HP: 79</li>
+                <li>Attack: 83</li>
+                <li>Defense: 100</li>
+                <li>Sp. Atk: 85</li>
+                <li>Sp. Def: 105</li>
+                <li>Speed: 78</li>
+                <li>Total: 530</li>
             </ul>
         </nav>
-        <article>
-            <img src="squirtleimg.png" alt="Squirtle" height="" width="">
+        <article class="center-article">
+            <img src="squirtleimg.png" alt="Squirtle" height="200" width="200">
             <p>
                 Squirtle is a water type Pokemon introduced in Gen 1. 
                 It evolves into Wartortle, which evolves into Blastoise. 
                 Squirtle is one of three starter Pokemon available at the 
                 beginning of Pokemon Red, Green, Blue, FireRed and LeafGreen.
             </p>
-            <img src="Wartortle.png" alt="Wartortle" height="" width="">
+            <img src="Wartortle.png" alt="Wartortle" height="200" width="200">
             <p>
                 Wartortle is a water type Pokmon Intoduced in Gen 1. 
                 It evolves from squirtle and evolves into Blastoise. 
@@ -38,7 +70,7 @@
                 turtle. A brown shell with a pale yellow underside 
                 encases its body.
             </p>
-            <img src="Blastoise.png" alt="Blastoise" height="" width="">
+            <img src="Blastoise.png" alt="Blastoise" height="200" width="200">
             <p>
                 Blastoise is a water type Pokemon introduced in Gen 1. 
                 It evolves from Wartortle which comes from Squirtle. 
@@ -47,12 +79,17 @@
                 the boxart of both.
             </p>
         </article>
-        <aside>
+        <aside class="right-side-article">
             <!-- The ad :P -->
+            <figure>
+                <img src="ad.png" width="200" height="200" alt="Pokemon Center">
+                <figcaption>Shop online for all of your pokemon merch
+                <a href="https://www.pokemoncenter.com/">here</a>.
+                </figcaption>
+            </figure>
         </aside>
         <footer>
-        
+            <p>Copyright© 2019 PokeFax All rights reserved</p>
         </footer>
-        
     </body>
 </html>
