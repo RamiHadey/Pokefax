@@ -3,34 +3,92 @@
     <head>
         <meta charset="UTF-8">
         <title>Charmander</title>
+        <link href="layout-gengarcon.css" rel="style sheet">
     </head>
 
     <body>   
         <header>
-            <a href="pfhome.html"><img src="pflogo.png" alt="PokeFax Logo" height="250px" width="300px"></a>
+            <nav>
+                <a href="pfhome.html"><img class="logo-img" src="pflogo.png" alt="PokeFax Logo" height="250px" width="300px"></a>
+                <div class="dropdown">
+                        <button class="dropbtn">Element types</button>
+                        <div class="dropdown-content">
+                            <a href="Electric.html">Electric Type</a>
+                            <a href="Water.html">Water Type</a>
+                            <a href="Fire.html">Fire Type</a>
+                            <a href="Psychic.html">Psychic Type</a>
+                            <a href="Normal.html">Normal Type</a>
+                            <a href="GhostPoison.html">Ghost/Poison Type</a>
+                        </div>
+                </div>
+            </nav>
         </header>
-        <nav>
+        <nav class="left-side-article">
             <h1>Pokemon Stats:</h1>
             <ul>
-                <li></li>
-                <li></li>
+                <li><h3>Charmander</h3></li>
+                <li>HP: 39</li>
+                <li>Attack: 52</li>
+                <li>Defense: 43</li>
+                <li>Sp. Atk: 60</li>
+                <li>Sp. Def: 50</li>
+                <li>Speed: 65</li>
+                <li>Total: 309</li>
+                <br>
+                <li><h3>Charmeleon</h3></li>
+                <li>HP: 58</li>
+                <li>Attack: 64</li>
+                <li>Defense: 58</li>
+                <li>Sp. Atk: 80</li>
+                <li>Sp. Def: 65</li>
+                <li>Speed: 80</li>
+                <li>Total: 405</li>
+                <br>
+                <li><h3>Charizard</h3></li>
+                <li>HP: 78</li>
+                <li>Attack: 84</li>
+                <li>Defense: 78</li>
+                <li>Sp. Atk: 109</li>
+                <li>Sp. Def: 85</li>
+                <li>Speed: 100</li>
+                <li>Total: 534</li>
             </ul>
         </nav>
-        <article>
-            <img src="" alt="" height="" width="">
-            <img src="" alt="" height="" width="">
-            <img src="" alt="" height="" width="">
+        <article class="center-article">
+            <img src="Charmander.png" alt="Charmander" height="200" width="200">
+            <p>
+                Charmander is a fire type Pokemon intoduced in Gen 1. 
+                It evolves into Charmeleon, which evolves into Charizard.
+                Along with Bulbasaur and Squirtle, Charmander is on of three
+                starter Pokemon at the beggining of Pokemon Red, Green, Blue, 
+                Firered and LeafGreen.
+            </p>
+            <img src="Charmeleon.png" alt="Charmeleon" height="200" width="200">
+            <p>
+                Charmeleon is a fire type Pokemon inroduced in Gen 1.
+                It evolves from Charmander and evolves into Chariard.
+                Charmeleon is a bipeedal, reptillian Pokemon. It has 
+                dark red scales and a cream underside from the chest down.
+            </p>
+            <img src="Charizard.png" alt="Charizard" height="200" width="200">
+            <p>
+                Charizard is a dual type fire and flying Pokemon 
+                introduced in Gen 1. It evolves from Charmeleon, 
+                which evolves from Charmander. Charizard is the game 
+                mascot of Pokemon Red and Firered versions.
+            </p>
         </article>
-        <aside>
-            <h1>Link to each Pokemon</h1>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
+        <aside class="right-side-article">
+            <!-- The ad :P -->
+            <figure>
+                <img src="ad.png" width="200" height="200" alt="Pokemon Center">
+                <figcaption>Shop online for all of your pokemon merch
+                <a href="https://www.pokemoncenter.com/">here</a>.
+                </figcaption>
+            </figure>
         </aside>
         <footer>
-
+            <p>Copyright© 2019 PokeFax All rights reserved</p>
         </footer>
-
     </body>
 </html>
