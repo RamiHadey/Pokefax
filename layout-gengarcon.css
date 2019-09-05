@@ -28,3 +28,6 @@ aside.right-side-article {
     float: right;
     display: block;
 }
+html{
+    background: grey
+}
