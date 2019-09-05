@@ -23,3 +23,8 @@ div.dropdown {
     display: block;
     clear: both;
 }
+aside.right-side-article {
+    width: 20%;
+    float: right;
+    display: block;
+}
