@@ -1,0 +1,25 @@
+article.center-article {
+    width: 60%;
+    float: left;
+    display: block;
+}
+article.center-article img {
+    width: 200px;
+    height: 200px;
+}
+aside.left-side-article {
+    width: 20%;
+    float: left;
+    display: block;
+}
+a img.logo-img {
+    width: 20%;
+    float: left;
+    display: block;
+}
+div.dropdown {
+    width: 20%;
+    float: right;
+    display: block;
+    clear: both;
+}
