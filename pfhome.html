@@ -14,13 +14,15 @@
         <meta content="Pokemon, pokefax, evolution, pikachu, charmander, 
         squirtle, zapados, mewtwo, snrolax, lickitung, gengar, gen 1"/>
         <title>PokeFax Home</title>
-        <link rel="stylesheet" href="layout-gengarcon.css"
     </head>
-
-    <body>        
+<!--
+    I added a lot of the meta data for site along with the title 
+-->
+    <body>
+                
         <header>
             <nav>
-                <a href="pfhome.html"><img src="pflogo.png" width="500" hight="500" alt="PokiFax">
+                <img class="logo-img" src="pflogo.png" width="500" hight="500" alt="PokiFax">
                 <div class="dropdown">
                         <button class="dropbtn">Element types</button>
                         <div class="dropdown-content">
@@ -32,10 +34,15 @@
                             <a href="GhostPoison.html">Ghost/Poison Type</a>
                         </div>
                 </div>
-            </nav>  
+            </nav>
+<!--
+    Added the logo as the header, along with the drop down menu
+    that takes users to the different pages that include all the 
+    different elements included in pokefax
+-->  
         </header>
         <h1>Pokemon Index</h1>
-        <article>
+        <article class="center-article">
             <a href="charcon.html"><img src="charmander.png" width="200" 
             height="200" title="Charmander Content Page" alt="Charmander"></a>
             <p>Name: Charmander <br/>Type: Fire</p>
@@ -59,10 +66,12 @@
             <p>Name: Likitung <br/> Type: Normal</p>
             <a href="gengarcon.html"><img src="gastly.png" width="200"
             height="200" title="Gengar Content Page" alt="Gengar"></a>
-            <p>Name: Gengar <br/> Tpye: Poison</p>   
+            <p>Name: Gastly <br/> Tpye: Poison</p>   
         </article>
-       
-        <aside>
+ <!--
+     Added the clickable images of all of the pokemon along with their name 
+ -->      
+        <aside class="left-side-article">
             <h3>Click here to see the origin of the fully evolved pokemon</h3>
             <ul>
                 <li><a href="charcon.html"><img src="charzard.png" width="200" 
@@ -75,12 +84,15 @@
                 height="200" alt="Snorlax"></a></li>
                 <li><a href="lickcon.html"><img src="lickilicky (2).png" width="200"
                 height="200" alt="Likilicky"></a></li>
-                <li><a href="gengarcon.html"><img src="gengarimg.jpg" width="200"
+                <li><a href="gengarcon.html"><img src="gengarimg2.png" width="200"
                 height="200" alt="Gengar"></a></li>
             </ul>
         </aside>
-        
-        <aside>
+<!--
+    added clickable photos to evolved pokemon that take you to the page to see 
+    the original and read up information on it
+-->        
+        <aside class="right-side-article">
             <figure>
                 <img src="ad.jpeg" width="200" height="200" alt="Pokemon Center">
                 <figcaption>Shop online for all of your pokemon merch
@@ -88,7 +100,9 @@
                 </figcaption>
             </figure>
         </aside>
-        
+<!--
+    Added a fake ad to make the site look more realistic
+-->        
         <footer>
             Copyright© 2019 PokeFax All rights reserved
         </footer>
