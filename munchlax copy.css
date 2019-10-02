@@ -18,6 +18,10 @@ div.row{
     float: center;
 }
 
+div.row h1{
+   text-align: center; 
+}
+
 /* Style The Dropdown Button */
 .dropbtn {
    background-color: red;
