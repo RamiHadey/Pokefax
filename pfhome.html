@@ -1,114 +1,127 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!--
-            PokeFax:
-            Project Manager: Christian Harwood
-            Web Developer: Rami Hadey
-            Web Designer: Brandon Santizo
-            Content Developers: Daniel Garcia, Dominic Torres
-            Date: 9/3/19
-        -->
-        <meta charset="UTF-8"/>
-        <meta name="Pokemon"/>
-        <meta content="Pokemon, pokefax, evolution, pikachu, charmander, 
-        squirtle, zapados, mewtwo, snrolax, lickitung, gengar, gen 1"/>
-        <title>PokeFax Home</title>
-        <style>
-           html{ background: grey; 
-           }
-        </style> 
-    </head>
+   <head>
+       <!--
+           PokeFax:
+           Project Manager: Christian Harwood
+           Web Developer: Rami Hadey
+           Web Designer: Brandon Santizo
+           Content Developers: Daniel Garcia, Dominic Torres
+           Date: 9/3/19
+       -->
+       <meta charset="UTF-8"/>
+       <meta name="Pokemon"/>
+       <meta content="Pokemon, pokefax, evolution, pikachu, charmander,
+       squirtle, zapados, mewtwo, snrolax, lickitung, gengar, gen 1"/>
+       <title>PokeFax Home</title>
+       <link href="pfhome_layout.css" rel="stylesheet"/>
+   </head>
 <!--
-    I added a lot of the meta data for site along with the title 
+   I added a lot of the meta data for site along with the title
 -->
-    <body>
-                
-        <header>
-            <nav>
-                <img class="logo-img" src="pflogo.png" width="500" hight="500" alt="PokiFax">
-                <div class="dropdown">
-                        <button class="dropbtn">Element types</button>
-                        <div class="dropdown-content">
-                            <a href="Electric.html">Electric Type</a>
-                            <a href="Water.html">Water Type</a>
-                            <a href="Fire.html">Fire Type</a>
-                            <a href="Psychic.html">Psychic Type</a>
-                            <a href="Normal.html">Normal Type</a>
-                            <a href="GhostPoison.html">Ghost/Poison Type</a>
-                        </div>
-                </div>
-            </nav>
+   <body>
+
+       <header>
+           <nav>
+               <img class="logo-img" src="pflogo.png" width="500" hight="500" alt="PokiFax">
+               <button class="dropbtn">Element types</button>
+               <div class="dropdown">
+                       <div class="dropdown-content">
+                           <a href="Electric.html">Electric Type</a>
+                           <a href="Water.html">Water Type</a>
+                           <a href="Fire.html">Fire Type</a>
+                           <a href="Psychic.html">Psychic Type</a>
+                           <a href="Normal.html">Normal Type</a>
+                           <a href="GhostPoison.html">Ghost/Poison Type</a>
+                       </div>
+               </div>
+           </nav>
 <!--
-    Added the logo as the header, along with the drop down menu
-    that takes users to the different pages that include all the 
-    different elements included in pokefax
--->  
-        </header>
-        <h1>Pokemon Index</h1>
-        <article class="center-article">
-            <a href="charcon.html"><img src="charmander.png" width="200" 
-            height="200" title="Charmander Content Page" alt="Charmander"></a>
-            <p>Name: Charmander <br/>Type: Fire</p>
-            <a href="pikcon.html"><img src="pikachuimg.png" width="200" 
-            height="200" title="Pikachu Content Page" alt="Pikachu"></a>
-            <p>Name: Pikachu <br/> Type: Lightning</p>
-            <a href="squirtcon.html"><img src="squirtleimg.png" width="200" 
-            height="200" title="Squitle Content Page" alt="Suirtle"></a>
-            <p>Name: Squirle <br/> Type: Water</p>
-            <a href="zapcon.html"><img src="zadosimg.png" width="200" 
-            height="200" title="Zapdos Content Page" alt="Zapdos"></a>
-            <p>Name: Zapdos <br/> Type: Lighting</p>
-            <a href="mewcon.html"><img src="mewtwoimg.png" width="200"
-            height="200" title="Mewtwo Content Page" alt="Mewtwo"></a>
-            <p>Name: Mewtwo <br/> Type: Psychic</p> 
-            <a href="munchlaxcon.html"><img src="munchlax.png" width="200" 
-            height="200" title="Snorlax Content Page" alt="Munchlax"></a>
-            <p>Name: Munchlax <br/> Type: Normal</p>
-            <a href="lickcon.html"><img src="lickitung.png" width="200"
-            height="200" title="Lickitung Content Page" alt="Lickitung"></a>
-            <p>Name: Likitung <br/> Type: Normal</p>
-            <a href="gengarcon.html"><img src="gastly.png" width="200"
-            height="200" title="Gengar Content Page" alt="Gastly"></a>
-            <p>Name: Gastly <br/> Tpye: Poison</p>   
-        </article>
- <!--
-     Added the clickable images of all of the pokemon along with their name 
- -->      
-        <aside class="left-side-article">
-            <h3>Click here to see the origin of the fully evolved pokemon</h3>
-            <ul>
-                <li><a href="charcon.html"><img src="charzard.png" width="200" 
-                height="200" alt="Charzard"></a></li>
-                <li><a href="pikcon.html"><img src="richu.png" width="200"
-                height="200" alt="Richu"></a></li>
-                <li><a href="squirtcon.html"><img src="blastoise.jpeg" width="200"
-                height="200" alt="Blastoise"></a></li>
-                <li><a href="snorcon.html"><img src="snorlax.png" width="200"
-                height="200" alt="Snorlax"></a></li>
-                <li><a href="lickcon.html"><img src="lickilicky (2).png" width="200"
-                height="200" alt="Likilicky"></a></li>
-                <li><a href="gengarcon.html"><img src="gengarimg2.png" width="200"
-                height="200" alt="Gengar"></a></li>
-            </ul>
-        </aside>
+   Added the logo as the header, along with the drop down menu
+   that takes users to the different pages that include all the
+   different elements included in pokefax
+-->
+
+</header>
+
+ <header>
+            <h1>Pokemon Index</h1>
+       </header>
+<div class="container">
+      
+       <!-- <article class="center-article"> -->
+           <div>
+           <a href="charcon.html"><img src="charmander.png" width="200"
+           height="200" title="Charmander Content Page" alt="Charmander"></a>
+           <p>Name: Charmander <br/>Type: Fire</p>
+           <a href="pikcon.html"><img src="pikachuimg.png" width="200"
+           height="200" title="Pikachu Content Page" alt="Pikachu"></a>
+           <p>Name: Pikachu <br/> Type: Lightning</p>
+           <a href="squirtcon.html"><img src="squirtleimg.png" width="200"
+           height="200" title="Squitle Content Page" alt="Suirtle"></a>
+           <p>Name: Squirle <br/> Type: Water</p>
+           <a href="zapcon.html"><img src="zadosimg.png" width="200"
+           height="200" title="Zapdos Content Page" alt="Zapdos"></a>
+           <p>Name: Zapdos <br/> Type: Lighting</p>
+        </div>
+
+           <div>
+           <a href="mewcon.html"><img src="mewtwoimg.png" width="200"
+           height="200" title="Mewtwo Content Page" alt="Mewtwo"></a>
+           <p>Name: Mewtwo <br/> Type: Psychic</p>
+           <a href="munchlaxcon.html"><img src="munchlax.png" width="200"
+           height="200" title="Snorlax Content Page" alt="Munchlax"></a>
+           <p>Name: Munchlax <br/> Type: Normal</p>
+           <a href="lickcon.html"><img src="lickitung.png" width="200"
+           height="200" title="Lickitung Content Page" alt="Lickitung"></a>
+           <p>Name: Likitung <br/> Type: Normal</p>
+           <a href="gengarcon.html"><img src="gastly.png" width="200"
+           height="200" title="Gengar Content Page" alt="Gastly"></a>
+           <p>Name: Gastly <br/> Tpye: Poison</p>
+           </div>
+
+<div>
+           <h3>Click here to see the origin of the fully evolved pokemon</h3>
+           <ul id="side">
+               <li><a href="charcon.html"><img src="charzard.png" width="100"
+               height="100" alt="Charzard"></a></li>
+               <li><a href="pikcon.html"><img src="richu.png" width="100"
+               height="100" alt="Richu"></a></li>
+               <li><a href="squirtcon.html"><img src="blastoise.jpeg" width="100"
+               height="100" alt="Blastoise"></a></li>
+               <li><a href="snorcon.html"><img src="snorlax.png" width="100"
+               height="100" alt="Snorlax"></a></li>
+               <li><a href="lickcon.html"><img src="lickilicky (2).png" width="100"
+               height="100" alt="Likilicky"></a></li>
+               <li><a href="gengarcon.html"><img src="gengarimg2.png" width="100"
+               height="100" alt="Gengar"></a></li>
+           </ul>
+           </div>
+       <!-- </article> -->
 <!--
-    added clickable photos to evolved pokemon that take you to the page to see 
-    the original and read up information on it
--->        
-        <aside class="right-side-article">
-            <figure>
-                <img src="ad.jpeg" width="200" height="200" alt="Pokemon Center">
-                <figcaption>Shop online for all of your pokemon merch
-                <a href="https://www.pokemoncenter.com/">here</a>.
-                </figcaption>
-            </figure>
-        </aside>
+    Added the clickable images of all of the pokemon along with their name
+-->
+       <!-- <aside class="left-side-article">
+           
+       </aside> -->
+    </div>
 <!--
-    Added a fake ad to make the site look more realistic
--->        
-        <footer>
-            Copyright© 2019 PokeFax All rights reserved
-        </footer>
-    </body>
+   added clickable photos to evolved pokemon that take you to the page to see
+   the original and read up information on it
+-->
+ <!--      <aside class="right-side-article">
+           <figure>
+               <img src="ad.jpeg" width="200" height="200" alt="Pokemon Center">
+               <figcaption>Shop online for all of your pokemon merch
+               <a href="https://www.pokemoncenter.com/">here</a>.
+               </figcaption>
+           </figure>
+       </aside>
+<!--
+   Added a fake ad to make the site look more realistic
+--> 
+<footer>
+           Copyright© 2019 PokeFax All rights reserved
+       </footer>
+   </body>
 </html>
