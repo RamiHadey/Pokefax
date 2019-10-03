@@ -31,7 +31,7 @@ body{
    list-style-type: none;
 }
 /* Style The Dropdown Button */
-.dropbtn {
+.dropbtn{
    background-color: red;
    color: white;
    padding: 16px;
@@ -74,9 +74,6 @@ body{
 }
 h1{
    text-align: center;
-}
-div{
-   outline: 1px solid red;
 }
 footer{
    padding-top: 10px;
