@@ -3,13 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <title>Squirtle</title>
-        <link href="layout-gengarcon.css" rel="style sheet">
+        <link href="squirt.css" rel="stylesheet"/>
     </head>
+<!--
+    row - title
+        column - logo
+        column - title
+        column - drop down menu
+    row - jazz
+        column
+        column
+        column
+    row - footer
 
+
+    <div class="row">
+    <div class="col-1-3"
+-->
     <body>
         <header>
             <nav>
-                <a href="pfhome.html"><img class="logo-img" src="pflogo.png" alt="PokeFax Logo" height="250px" width="300px"></a>
+                
                 <div class="dropdown">
                         <button class="dropbtn">Element types</button>
                         <div class="dropdown-content">
@@ -21,11 +35,14 @@
                             <a href="GhostPoison.html">Ghost/Poison Type</a>
                         </div>
                 </div>
+                <a href="pfhome.html"><img class="logo-img" src="pflogo.png" alt="PokeFax Logo" height="250px" width="300px"></a>
             </nav>
         </header>
-        <nav class="left-side-article">
+        <nav>
             <h1>Pokemon Stats:</h1>
-            <ul>
+            <div class="row">
+                <ul>
+                <div class="column-1-3">
                 <li><h3>Squirtle</h3></li>
                 <li>HP: 44</li>
                 <li>Attack: 48</li>
@@ -35,6 +52,8 @@
                 <li>Speed: 43</li>
                 <li>Total: 314</li>
                 <br>
+                </div>
+                <div class="column-1-3">
                 <li><h3>Wartortle</h3></li>
                 <li>HP: 59</li>
                 <li>Attack: 63</li>
@@ -44,6 +63,8 @@
                 <li>Speed: 58</li>
                 <li>Total: 405</li>
                 <br>
+                </div>
+                <div class="column-1-3">
                 <li><h3>Blastoise</h3></li>
                 <li>HP: 79</li>
                 <li>Attack: 83</li>
@@ -52,9 +73,13 @@
                 <li>Sp. Def: 105</li>
                 <li>Speed: 78</li>
                 <li>Total: 530</li>
-            </ul>
+                </div>
+                </ul>
+            </div>
         </nav>
         <article class="center-article">
+                <div class="row">
+                <div class="col-1-3">
             <img src="squirtleimg.png" alt="Squirtle" height="200" width="200">
             <p>
                 Squirtle is a water type Pokemon introduced in Gen 1. 
@@ -62,6 +87,8 @@
                 Squirtle is one of three starter Pokemon available at the 
                 beginning of Pokemon Red, Green, Blue, FireRed and LeafGreen.
             </p>
+            </div>
+            <div class="col-1-3">
             <img src="Wartortle.png" alt="Wartortle" height="200" width="200">
             <p>
                 Wartortle is a water type Pokmon Intoduced in Gen 1. 
@@ -70,6 +97,8 @@
                 turtle. A brown shell with a pale yellow underside 
                 encases its body.
             </p>
+            </div>
+            <div class="col-1-3">
             <img src="Blastoise.png" alt="Blastoise" height="200" width="200">
             <p>
                 Blastoise is a water type Pokemon introduced in Gen 1. 
@@ -78,9 +107,12 @@
                 international versions of Pokémon Blue, appearing on 
                 the boxart of both.
             </p>
+            </div>
+            </div>
         </article>
+        <!--
         <aside class="right-side-article">
-            <!-- The ad :P -->
+            <!-- The ad :P -- >
             <figure>
                 <img src="ad.png" width="200" height="200" alt="Pokemon Center">
                 <figcaption>Shop online for all of your pokemon merch
@@ -88,6 +120,7 @@
                 </figcaption>
             </figure>
         </aside>
+    -->
         <footer>
             <p>Copyright© 2019 PokeFax All rights reserved</p>
         </footer>
